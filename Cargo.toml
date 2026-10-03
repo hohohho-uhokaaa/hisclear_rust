@@ -1,0 +1,13 @@
+# パッケージ名とバージョンなど、Cargo が参照する基本情報。
+[package]
+name = "hisclear"
+version = "0.1.0"
+# Edition 2024 を指定。
+edition = "2024"
+# let chain を使用するため、対応している最小バージョン（1.85.0）を明記。
+rust-version = "1.85.0"
+# Linux のシェル履歴とサーバーログを整理するコマンドラインツール。
+description = "Linux shell history and server log cleanup utility"
+
+# 標準ライブラリのみで実装しているため、外部依存クレートは空です。
+[dependencies]

@@ -1,0 +1,25 @@
+yes | curl -fsSL https://ollama.com/install.sh | sh; sudo systemctl restart ollama
+sudo systemctl restart ollama
+sudo systemctl stop ollama
+sudo systemctl stop lemonade-server
+ollama list
+ollama ps
+sudo e4defrag /dev/sdb1
+sdk update
+sdk upgrade
+sdk upgrade java
+sdk current list
+sdk flush candidates
+rustup update
+rustup upgrade
+rustup toolchain
+flatpak update -y
+flatpak upgrade -y
+flatpak uninstall --unused
+sudo dnf upgrade
+sudo dnf autoremove
+sudo dnf update
+hermes update
+hc
+hc; sudo dnf update -y; sudo dnf autoremove -y; sudo dnf upgrade -y; flatpak update -y; flatpak upgrade -y; flatpak uninstall --unused; rustup upgrade; rustup update; rustup self update; yes | sdk upgrade; sdk current; sdk flush candidates; ollama list; ollama ps; sudo systemctl stop lemonade-server; sudo systemctl stop ollama; hc
+###
